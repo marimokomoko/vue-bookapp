@@ -8,52 +8,62 @@
         "name": "book",
         "path": "",
         "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\book\\\\index.vue",
-        "chunkName": "pages/book/index",
-        "_name": "_76474250"
+        "chunkName": "pages/book/index"
       },
       {
         "name": "book-search",
         "path": "search",
         "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\book\\\\search.vue",
-        "chunkName": "pages/book/search",
-        "_name": "_fb2354dc"
+        "chunkName": "pages/book/search"
       },
       {
         "name": "book-edit-id",
         "path": "edit/:id?",
         "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\book\\\\edit\\\\_id.vue",
-        "chunkName": "pages/book/edit/_id",
-        "_name": "_01fa6314"
+        "chunkName": "pages/book/edit/_id"
       }
-    ],
-    "_name": "_45696b2c"
+    ]
+  },
+  {
+    "name": "vuexTest",
+    "path": "/vuexTest",
+    "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\vuexTest.vue",
+    "chunkName": "pages/vuexTest"
+  },
+  {
+    "name": "auth-login",
+    "path": "/auth/login",
+    "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\auth\\\\login.vue",
+    "chunkName": "pages/auth/login"
+  },
+  {
+    "name": "auth-register",
+    "path": "/auth/register",
+    "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\auth\\\\register.vue",
+    "chunkName": "pages/auth/register"
   },
   {
     "name": "firebasetest-addData",
     "path": "/firebasetest/addData",
     "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\firebasetest\\\\addData.vue",
-    "chunkName": "pages/firebasetest/addData",
-    "_name": "_527cc8c1"
+    "chunkName": "pages/firebasetest/addData"
   },
   {
     "name": "firebasetest-addData_ts",
     "path": "/firebasetest/addData_ts",
     "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\firebasetest\\\\addData_ts.vue",
-    "chunkName": "pages/firebasetest/addData_ts",
-    "_name": "_43ba33ed"
+    "chunkName": "pages/firebasetest/addData_ts"
   },
   {
     "name": "firebasetest-showData",
     "path": "/firebasetest/showData",
     "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\firebasetest\\\\showData.vue",
-    "chunkName": "pages/firebasetest/showData",
-    "_name": "_55784761"
+    "chunkName": "pages/firebasetest/showData"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_25ec5621"
+    "chunkName": "pages/index"
   }
 ]

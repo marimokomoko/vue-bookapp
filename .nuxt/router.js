@@ -8,6 +8,9 @@ const _45696b2c = () => interopDefault(import('..\\pages\\book.vue' /* webpackCh
 const _76474250 = () => interopDefault(import('..\\pages\\book\\index.vue' /* webpackChunkName: "pages/book/index" */))
 const _fb2354dc = () => interopDefault(import('..\\pages\\book\\search.vue' /* webpackChunkName: "pages/book/search" */))
 const _01fa6314 = () => interopDefault(import('..\\pages\\book\\edit\\_id.vue' /* webpackChunkName: "pages/book/edit/_id" */))
+const _51e774e5 = () => interopDefault(import('..\\pages\\vuexTest.vue' /* webpackChunkName: "pages/vuexTest" */))
+const _115581d0 = () => interopDefault(import('..\\pages\\auth\\login.vue' /* webpackChunkName: "pages/auth/login" */))
+const _2842f5e8 = () => interopDefault(import('..\\pages\\auth\\register.vue' /* webpackChunkName: "pages/auth/register" */))
 const _527cc8c1 = () => interopDefault(import('..\\pages\\firebasetest\\addData.vue' /* webpackChunkName: "pages/firebasetest/addData" */))
 const _43ba33ed = () => interopDefault(import('..\\pages\\firebasetest\\addData_ts.vue' /* webpackChunkName: "pages/firebasetest/addData_ts" */))
 const _55784761 = () => interopDefault(import('..\\pages\\firebasetest\\showData.vue' /* webpackChunkName: "pages/firebasetest/showData" */))
@@ -40,6 +43,18 @@ export const routerOptions = {
       component: _01fa6314,
       name: "book-edit-id"
     }]
+  }, {
+    path: "/vuexTest",
+    component: _51e774e5,
+    name: "vuexTest"
+  }, {
+    path: "/auth/login",
+    component: _115581d0,
+    name: "auth-login"
+  }, {
+    path: "/auth/register",
+    component: _2842f5e8,
+    name: "auth-register"
   }, {
     path: "/firebasetest/addData",
     component: _527cc8c1,

@@ -15,7 +15,7 @@ export default class addData extends Vue {
   async addData() {
     try {
       //   const db = getFirestore(this.$firebase)
-      const db = getFirestore(this.$firebase)
+      const db = getFirestore() // (this.$firebase)でプラグインで設定しているfirebase取得できるらしいけどできない
       console.log(db)
       const docRef = await addDoc(collection(db, 'tasks'), {
         id: this.id,
