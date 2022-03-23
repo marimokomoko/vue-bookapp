@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`画面レイアウト スナップショットテスト 1`] = `"<footer class=\\"v-footer v-sheet theme--light v-footer--absolute purple lighten-3\\" style=\\"left: 0px; right: 0px; bottom: 0px;\\"><span>© 2022</span></footer>"`;

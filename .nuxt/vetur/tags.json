@@ -1,0 +1,14 @@
+{
+  "AtomsButtonItem": {
+    "description": "Auto imported from components/atoms/ButtonItem.vue"
+  },
+  "AtomsFooter": {
+    "description": "Auto imported from components/atoms/Footer.vue"
+  },
+  "AtomsHeader": {
+    "description": "Auto imported from components/atoms/Header.vue"
+  },
+  "AtomsTitleItem": {
+    "description": "Auto imported from components/atoms/TitleItem.vue"
+  }
+}

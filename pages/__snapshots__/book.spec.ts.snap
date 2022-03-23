@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`画面レイアウト スナップショットテスト 1`] = `
+"<div>
+  <nuxtchild books=\\"\\"></nuxtchild>
+</div>"
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`画面レイアウト スナップショットテスト 1`] = `
+"<div class=\\"row button\\">
+  <div class=\\"col\\">
+    <router-link-stub class=\\"v-btn v-btn--is-elevated v-btn--has-bg v-btn--router theme--light v-size--default primary\\" style=\\"min-width: 110px;\\"><span class=\\"v-btn__content\\">
+      test
+    </span></router-link-stub>
+  </div>
+</div>"
+`;

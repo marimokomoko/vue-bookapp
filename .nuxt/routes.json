@@ -1,0 +1,59 @@
+[
+  {
+    "path": "/book",
+    "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\book.vue",
+    "chunkName": "pages/book",
+    "children": [
+      {
+        "name": "book",
+        "path": "",
+        "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\book\\\\index.vue",
+        "chunkName": "pages/book/index",
+        "_name": "_76474250"
+      },
+      {
+        "name": "book-search",
+        "path": "search",
+        "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\book\\\\search.vue",
+        "chunkName": "pages/book/search",
+        "_name": "_fb2354dc"
+      },
+      {
+        "name": "book-edit-id",
+        "path": "edit/:id?",
+        "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\book\\\\edit\\\\_id.vue",
+        "chunkName": "pages/book/edit/_id",
+        "_name": "_01fa6314"
+      }
+    ],
+    "_name": "_45696b2c"
+  },
+  {
+    "name": "firebasetest-addData",
+    "path": "/firebasetest/addData",
+    "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\firebasetest\\\\addData.vue",
+    "chunkName": "pages/firebasetest/addData",
+    "_name": "_527cc8c1"
+  },
+  {
+    "name": "firebasetest-addData_ts",
+    "path": "/firebasetest/addData_ts",
+    "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\firebasetest\\\\addData_ts.vue",
+    "chunkName": "pages/firebasetest/addData_ts",
+    "_name": "_43ba33ed"
+  },
+  {
+    "name": "firebasetest-showData",
+    "path": "/firebasetest/showData",
+    "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\firebasetest\\\\showData.vue",
+    "chunkName": "pages/firebasetest/showData",
+    "_name": "_55784761"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_25ec5621"
+  }
+]

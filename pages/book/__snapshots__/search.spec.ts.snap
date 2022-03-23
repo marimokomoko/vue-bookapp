@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`画面レイアウト スナップショットテスト 1`] = `
+"<div>
+  <h1>BookSearch</h1>
+  <div class=\\"row\\">
+    <div class=\\"col col-6\\">
+      <div class=\\"v-input theme--light v-text-field\\">
+        <div class=\\"v-input__control\\">
+          <div class=\\"v-input__slot\\">
+            <div class=\\"v-text-field__slot\\"><label for=\\"input-3\\" class=\\"v-label theme--light\\" style=\\"left: 0px; position: absolute;\\">本のタイトルを検索</label><input id=\\"input-3\\" type=\\"text\\"></div>
+          </div>
+          <div class=\\"v-text-field__details\\">
+            <div class=\\"v-messages theme--light\\">
+              <transition-group-stub tag=\\"div\\" name=\\"message-transition\\" class=\\"v-messages__wrapper\\"></transition-group-stub>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class=\\"row\\">
+    <div class=\\"col col-3\\"><button type=\\"button\\" class=\\"mb-3 v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary\\"><span class=\\"v-btn__content\\">検索する</span></button></div>
+    <div class=\\"col col-3\\">
+      <div class=\\"row button\\">
+        <div class=\\"col\\">
+          <router-link-stub class=\\"v-btn v-btn--is-elevated v-btn--has-bg v-btn--router theme--light v-size--default secondary\\" style=\\"min-width: 110px;\\"><span class=\\"v-btn__content\\">
+      一覧に戻る
+    </span></router-link-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class=\\"mt-4\\" style=\\"display: none;\\">検索結果は０件でした。</div>
+  <div class=\\"row\\"></div>
+</div>"
+`;
