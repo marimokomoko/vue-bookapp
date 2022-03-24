@@ -19,7 +19,6 @@
 </template>
 
 <script>
-import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'
 export default {
   data() {
     return {
@@ -29,20 +28,12 @@ export default {
   },
   methods: {
     login() {
-      // 認証機能を使う
-      const auth = getAuth(this.$firebase)
-      // ログイン
-      signInWithEmailAndPassword(auth, this.email, this.password)
-        .then((userCredential) => {
-          // 成功した場合
-          console.log(userCredential.user)
-          console.log('ユーザー登録ok!')
-        })
-        .catch((e) => {
-          // 失敗した場合
-          alert(e.message)
-          console.error('error:', e)
-        })
+      // actionを呼び出すときはdispatch('ファイル名/メソッド名'),{渡す値}
+      // v-modelで入力した値がdataに入りdispatchでactionに渡す
+      this.$store.dispatch('auth/login', {
+        email: this.email,
+        password: this.password
+      })
     },
   },
 }

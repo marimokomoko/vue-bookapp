@@ -10,6 +10,8 @@ const _fb2354dc = () => interopDefault(import('..\\pages\\book\\search.vue' /* w
 const _01fa6314 = () => interopDefault(import('..\\pages\\book\\edit\\_id.vue' /* webpackChunkName: "pages/book/edit/_id" */))
 const _51e774e5 = () => interopDefault(import('..\\pages\\vuexTest.vue' /* webpackChunkName: "pages/vuexTest" */))
 const _115581d0 = () => interopDefault(import('..\\pages\\auth\\login.vue' /* webpackChunkName: "pages/auth/login" */))
+const _2ad9b548 = () => interopDefault(import('..\\pages\\auth\\login_bk.vue' /* webpackChunkName: "pages/auth/login_bk" */))
+const _666bc0b3 = () => interopDefault(import('..\\pages\\auth\\logout.vue' /* webpackChunkName: "pages/auth/logout" */))
 const _2842f5e8 = () => interopDefault(import('..\\pages\\auth\\register.vue' /* webpackChunkName: "pages/auth/register" */))
 const _527cc8c1 = () => interopDefault(import('..\\pages\\firebasetest\\addData.vue' /* webpackChunkName: "pages/firebasetest/addData" */))
 const _43ba33ed = () => interopDefault(import('..\\pages\\firebasetest\\addData_ts.vue' /* webpackChunkName: "pages/firebasetest/addData_ts" */))
@@ -51,6 +53,14 @@ export const routerOptions = {
     path: "/auth/login",
     component: _115581d0,
     name: "auth-login"
+  }, {
+    path: "/auth/login_bk",
+    component: _2ad9b548,
+    name: "auth-login_bk"
+  }, {
+    path: "/auth/logout",
+    component: _666bc0b3,
+    name: "auth-logout"
   }, {
     path: "/auth/register",
     component: _2842f5e8,

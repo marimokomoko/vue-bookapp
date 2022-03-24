@@ -19,16 +19,21 @@
       </v-list>
     </v-navigation-drawer>
     <v-app-bar fixed app color="purple lighten-2">
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <div v-show="isLoggedIn">
+        <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      </div>
       <v-toolbar-title v-text="title" />
     </v-app-bar>
   </div>
 </template>
 
 <script lang="ts">
-import { Vue, Component } from 'nuxt-property-decorator'
+import { Vue, Component, Prop } from 'nuxt-property-decorator'
 @Component({})
 export default class Header extends Vue {
+  @Prop({type: Array,default: null})
+  books!: string
+
   private drawer = false
   private items = [
     {
@@ -41,9 +46,17 @@ export default class Header extends Vue {
       title: 'BookList',
       to: '/book',
     },
-  ];
+    {
+      title: 'Logout',
+      to: '/auth/logout',
+    },
+  ]
 
-  private title = '書籍管理アプリ';
+  private title = '書籍管理アプリ'
+
+  get isLoggedIn() {
+    return this.$store.getters['auth/getLoggedIn']
+  }
 }
 </script>
 

@@ -37,6 +37,18 @@
     "chunkName": "pages/auth/login"
   },
   {
+    "name": "auth-login_bk",
+    "path": "/auth/login_bk",
+    "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\auth\\\\login_bk.vue",
+    "chunkName": "pages/auth/login_bk"
+  },
+  {
+    "name": "auth-logout",
+    "path": "/auth/logout",
+    "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\auth\\\\logout.vue",
+    "chunkName": "pages/auth/logout"
+  },
+  {
     "name": "auth-register",
     "path": "/auth/register",
     "component": "C:\\\\Users\\\\matsumoto\\\\Documents\\\\work\\\\50_制作\\\\bookapp_ver2\\\\pages\\\\auth\\\\register.vue",
