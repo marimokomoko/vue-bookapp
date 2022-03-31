@@ -29,6 +29,7 @@
                   dark
                   ><v-icon>mdi-pencil</v-icon>
                 </v-btn>
+                <input type="checkbox" @click="clickCheckbox(book)">
               </v-card-actions>
             </v-col>
           </v-row>
@@ -44,8 +45,17 @@ import TitleItem from '@/components/atoms/TitleItem.vue'
 @Component({ components: { TitleItem } })
 export default class BookIndex extends Vue {
   private test: boolean = true
-  @Prop({type: Array, default: () => {}})
+  private deleteItem: Object[] = []
+  @Prop({ type: Array, default: () => {} })
   books!: string // 感嘆符(!)を付けることで、TSに値が確実に割り当てられている事を伝えられる
+
+  clickCheckbox(book: any) {
+    // 選択した削除対象データを取得
+    this.deleteItem.push(book)
+    console.log(this.deleteItem)
+    this.$emit('delete-item', this.deleteItem)
+
+  }
 
   deleteLocalStorage() {
     // 削除：親へ渡す

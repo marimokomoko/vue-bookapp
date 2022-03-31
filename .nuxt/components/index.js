@@ -1,7 +1,7 @@
-export const AtomsButtonItem = () => import('../..\\components\\atoms\\ButtonItem.vue' /* webpackChunkName: "components/atoms-button-item" */).then(c => wrapFunctional(c.default || c))
-export const AtomsFooter = () => import('../..\\components\\atoms\\Footer.vue' /* webpackChunkName: "components/atoms-footer" */).then(c => wrapFunctional(c.default || c))
-export const AtomsHeader = () => import('../..\\components\\atoms\\Header.vue' /* webpackChunkName: "components/atoms-header" */).then(c => wrapFunctional(c.default || c))
-export const AtomsTitleItem = () => import('../..\\components\\atoms\\TitleItem.vue' /* webpackChunkName: "components/atoms-title-item" */).then(c => wrapFunctional(c.default || c))
+export { default as AtomsButtonItem } from '../..\\components\\atoms\\ButtonItem.vue'
+export { default as AtomsFooter } from '../..\\components\\atoms\\Footer.vue'
+export { default as AtomsHeader } from '../..\\components\\atoms\\Header.vue'
+export { default as AtomsTitleItem } from '../..\\components\\atoms\\TitleItem.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

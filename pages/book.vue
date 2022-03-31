@@ -5,6 +5,7 @@
       @add-book-list="addBook"
       @update-book-info="updateBookInfo"
       @delete-local-storage="deleteLocalStorage"
+      @delete-item="deleteItem"
     />
   </div>
 </template>
@@ -88,8 +89,21 @@ export default class BookHome extends Vue {
     if (window.confirm(isDeleted)) {
       localStorage.setItem(STORAGE_KEY, '')
       localStorage.removeItem(STORAGE_KEY)
+
+      // 途中
+      // // 「delete オブジェクト名.プロパティ名」で特定のプロパティを削除
+      // delete this.books[0]
+      // // JSONに変換し直してローカルストレージに再設定
+      // const parsed = JSON.stringify(this.books)
+      // localStorage.setItem(STORAGE_KEY, JSON.stringify(parsed))
+
       window.location.reload()
     }
+  }
+
+  // 途中
+  private deleteItem() {
+    console.log('test')
   }
 }
 </script>
