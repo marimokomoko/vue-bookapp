@@ -51,15 +51,14 @@ export default class BookIndex extends Vue {
 
   clickCheckbox(book: any) {
     // 選択した削除対象データを取得
-    this.deleteItem.push(book)
+    this.deleteItem.push(book.id)
     console.log(this.deleteItem)
-    this.$emit('delete-item', this.deleteItem)
 
   }
 
   deleteLocalStorage() {
     // 削除：親へ渡す
-    this.$emit('delete-local-storage')
+    this.$emit('delete-local-storage', this.deleteItem)
   }
 }
 </script>
